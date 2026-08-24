@@ -1,17 +1,12 @@
 # Vidya — offline CBSE Commerce & Maths practice
 
-> _Practice that works when your internet doesn't._
+![Coverage](https://img.shields.io/badge/chapters-12%20exam--ready-6d28d9?style=for-the-badge)
+![Answers verified](https://img.shields.io/badge/answers-machine--verified-f59e0b?style=for-the-badge)
+![Offline](https://img.shields.io/badge/works%20offline-yes-16a34a?style=for-the-badge)
 
-Vidya is an offline-first practice app for CBSE Class 11–12 Commerce and
-Maths. Every numeric answer in the bank is re-derived by an independent
-solver before it ships. This repository is the marketing site and the
-interactive README for the project — see [LANDING-PAGE-BRIEF.md](./LANDING-PAGE-BRIEF.md)
-and [INTERACTIVE-README-SPEC.md](./INTERACTIVE-README-SPEC.md) for the full
-build specification.
+> **Practice that works when your internet doesn't.**
 
-[![Coverage](https://img.shields.io/badge/chapters-12%20exam--ready-6d28d9)](https://vidya.example/coverage)
-[![Answers verified](https://img.shields.io/badge/answers-machine--verified-f59e0b)](https://vidya.example/verify)
-[![Offline](https://img.shields.io/badge/works%20offline-yes-16a34a)](https://vidya.example/offline)
+</details>
 
 ---
 
@@ -61,11 +56,11 @@ figure × 3 years' purchase.
 
 ## Live stats
 
-[![Live stats SVG](https://vidya.example/api/readme/stats)](https://vidya.example)
+![Vidya stats](https://vidya-landing-handoff.vercel.app/api/readme/stats)
 
 The image above is generated from `content/stats.generated.json` and served
-from the same Vercel deployment that hosts the landing page. The numbers in
-this README are never hand-typed — they all come from the generated file.
+from the Vercel deployment that hosts the landing page. The numbers in this
+README are never hand-typed — they all come from the generated file.
 
 ---
 
@@ -81,9 +76,9 @@ this README are never hand-typed — they all come from the generated file.
 
 ## Coverage at a glance
 
-![Coverage](https://vidya.example/api/readme/stats)
+![Vidya stats](https://vidya-landing-handoff.vercel.app/api/readme/stats)
 
-> 12 chapters at full depth; the rest are being authored.
+> **12 chapters at full depth; the rest are being authored.**
 
 | State | Meaning |
 | --- | --- |
@@ -93,7 +88,8 @@ this README are never hand-typed — they all come from the generated file.
 
 ---
 
-<details><summary><b>What's actually built</b> — honest status</summary>
+<details>
+<summary><b>What's actually built</b> — honest status</summary>
 
 **Built:**
 - Offline-first question bank
@@ -116,7 +112,8 @@ device testing before release.
 
 ---
 
-<details><summary><b>How answers are verified</b> — the moat</summary>
+<details>
+<summary><b>How answers are verified</b> — the moat</summary>
 
 Every numeric question is solved twice — once when it's written, and again by
 a separate solver that reads only the question text and has no access to the
@@ -154,7 +151,8 @@ flowchart LR
 
 ---
 
-<details><summary><b>FAQ</b> — frequently asked questions</summary>
+<details>
+<summary><b>FAQ</b> — frequently asked questions</summary>
 
 **Is this a real product?**
 The app code exists and runs. The marketing site (this repo) is public; the
@@ -185,9 +183,9 @@ any time.
 
 ## Links
 
-- Landing page: [vidya.example](https://vidya.example)
-- Daily sample question: [`/api/readme/question`](https://vidya.example/api/readme/question)
-- OG image: [`/api/og-image`](https://vidya.example/api/og-image)
+- **Landing page:** [vidya-landing-handoff.vercel.app](https://vidya-landing-handoff.vercel.app)
+- **Daily sample question:** [`/api/readme/question`](https://vidya-landing-handoff.vercel.app/api/readme/question)
+- **Stats SVG:** [`/api/readme/stats`](https://vidya-landing-handoff.vercel.app/api/readme/stats)
 
 ---
 

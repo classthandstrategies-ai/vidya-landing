@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ede9fe"/>
+      <stop offset="60%" stop-color="#f6f5fb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)" rx="24"/>
+  <rect x="80" y="80" width="120" height="120" rx="24" fill="#6d28d9"/>
+  <text x="140" y="155" text-anchor="middle" font-family="Georgia, serif" font-size="56" font-weight="700" fill="white">V</text>
+  <text x="230" y="145" font-family="system-ui, sans-serif" font-size="48" font-weight="700" fill="#1c1a2e">Vidya</text>
+  <text x="230" y="185" font-family="system-ui, sans-serif" font-size="22" fill="#5f5b72">offline-first CBSE Commerce &amp; Maths practice</text>
+
+  <text x="80" y="310" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#1c1a2e" width="1000">Practice that works when your</text>
+  <text x="80" y="380" font-family="system-ui, sans-serif" font-size="52" font-weight="700" fill="#1c1a2e" width="1000">internet doesn't.</text>
+
+  <text x="80" y="460" font-family="system-ui, sans-serif" font-size="28" fill="#5f5b72">4,029 verified questions · 12 chapters exam-ready · Works offline</text>
+
+  <rect x="80" y="510" width="220" height="60" rx="30" fill="#f59e0b"/>
+  <text x="190" y="548" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#78350f">vidya-landing.vercel.app</text>
+  <rect x="320" y="510" width="220" height="60" rx="30" fill="#ede9fe"/>
+  <text x="430" y="548" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#6d28d9">github.com/…/vidya-landing</text>
+</svg>
