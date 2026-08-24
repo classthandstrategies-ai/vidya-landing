@@ -1,0 +1,43 @@
+name: Refresh README assets
+
+# INTERACTIVE-README-SPEC.md §3.2 — regenerate the static SVG assets and
+# rotate the featured question on a daily schedule. Commit only if bytes
+# changed.
+#
+# ⚠️ Verify this workflow actually runs in this repo before depending on it;
+# see the warning in the spec.
+
+on:
+  schedule:
+    # Off-hour UTC, off the :00 mark to avoid the global stampede.
+    - cron: "13 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run prebuild
+
+      - name: Commit if content changed
+        run: |
+          if [[ -n "$(git status --porcelain content/)" ]]; then
+            git config user.name "vidya-bot"
+            git config user.email "bot@vidya.example"
+            git add content/
+            git commit -m "chore: refresh generated content"
+            git push
+          else
+            echo "No content changes — nothing to commit."
+          fi

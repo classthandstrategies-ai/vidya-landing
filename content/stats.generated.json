@@ -1,0 +1,740 @@
+{
+  "generatedAt": "2026-08-24T16:47:34.221Z",
+  "datasetDate": "2026-08-19",
+  "totals": {
+    "questions": 4029,
+    "chapters": 67,
+    "examReadyChapters": 12,
+    "explainedQuestions": 3895,
+    "workedSolutions": 3408,
+    "mockPapers": 26,
+    "duplicates": 0,
+    "integrityDefects": 0,
+    "commerceCalculators": 10
+  },
+  "bySubject": [
+    {
+      "key": "MATHS",
+      "label": "Maths",
+      "questions": 1620
+    },
+    {
+      "key": "ACCOUNTANCY",
+      "label": "Accountancy",
+      "questions": 1402
+    },
+    {
+      "key": "ECONOMICS",
+      "label": "Economics",
+      "questions": 664
+    },
+    {
+      "key": "BUSINESS_STUDIES",
+      "label": "Business Studies",
+      "questions": 343
+    }
+  ],
+  "byExam": [
+    {
+      "key": "CUET",
+      "label": "CUET",
+      "eligibleQuestions": 3222,
+      "mockPapers": 10,
+      "relevantSubjects": [
+        "ACCOUNTANCY",
+        "BUSINESS_STUDIES",
+        "ECONOMICS",
+        "MATHS"
+      ]
+    },
+    {
+      "key": "CA_FOUNDATION",
+      "label": "CA Foundation",
+      "eligibleQuestions": 2036,
+      "mockPapers": 8,
+      "relevantSubjects": [
+        "ACCOUNTANCY",
+        "BUSINESS_STUDIES",
+        "MATHS"
+      ]
+    },
+    {
+      "key": "IPMAT",
+      "label": "IPMAT",
+      "eligibleQuestions": 1851,
+      "mockPapers": 8,
+      "relevantSubjects": [
+        "MATHS"
+      ]
+    },
+    {
+      "key": "CBSE_BOARD",
+      "label": "CBSE Boards",
+      "eligibleQuestions": 1357,
+      "mockPapers": null,
+      "relevantSubjects": [
+        "ACCOUNTANCY",
+        "BUSINESS_STUDIES",
+        "ECONOMICS",
+        "MATHS"
+      ]
+    },
+    {
+      "key": "CMA_FOUNDATION",
+      "label": "CMA Foundation",
+      "eligibleQuestions": 1009,
+      "mockPapers": null,
+      "relevantSubjects": [
+        "ACCOUNTANCY",
+        "BUSINESS_STUDIES"
+      ]
+    },
+    {
+      "key": "SET",
+      "label": "SET",
+      "eligibleQuestions": 727,
+      "mockPapers": null,
+      "relevantSubjects": [
+        "MATHS"
+      ]
+    },
+    {
+      "key": "NPAT",
+      "label": "NPAT",
+      "eligibleQuestions": 640,
+      "mockPapers": null,
+      "relevantSubjects": [
+        "MATHS"
+      ]
+    },
+    {
+      "key": "CS_FOUNDATION",
+      "label": "CS Foundation",
+      "eligibleQuestions": 435,
+      "mockPapers": null,
+      "relevantSubjects": [
+        "ACCOUNTANCY",
+        "BUSINESS_STUDIES"
+      ]
+    }
+  ],
+  "examReadyChapterIds": [
+    "accounting-ratios",
+    "applied-maths-commercial-arithmetic",
+    "company-accounts-share-capital",
+    "goodwill",
+    "matrices-determinants",
+    "measures-central-tendency",
+    "national-income-aggregates",
+    "partnership-fundamentals",
+    "permutations-combinations",
+    "principles-of-management",
+    "probability",
+    "sequences-series"
+  ],
+  "chapters": [
+    {
+      "id": "accounting-ratios",
+      "title": "Accounting Ratios",
+      "subject": "ACCOUNTANCY",
+      "easy": 134,
+      "medium": 124,
+      "hard": 108,
+      "total": 366
+    },
+    {
+      "id": "applied-maths-commercial-arithmetic",
+      "title": "Applied Maths (Commercial Arithmetic)",
+      "subject": "MATHS",
+      "easy": 122,
+      "medium": 116,
+      "hard": 102,
+      "total": 340
+    },
+    {
+      "id": "company-accounts-share-capital",
+      "title": "Company Accounts — Share Capital",
+      "subject": "ACCOUNTANCY",
+      "easy": 118,
+      "medium": 110,
+      "hard": 104,
+      "total": 332
+    },
+    {
+      "id": "goodwill",
+      "title": "Goodwill",
+      "subject": "ACCOUNTANCY",
+      "easy": 115,
+      "medium": 108,
+      "hard": 100,
+      "total": 323
+    },
+    {
+      "id": "matrices-determinants",
+      "title": "Matrices & Determinants",
+      "subject": "MATHS",
+      "easy": 112,
+      "medium": 106,
+      "hard": 105,
+      "total": 323
+    },
+    {
+      "id": "measures-central-tendency",
+      "title": "Measures of Central Tendency",
+      "subject": "ECONOMICS",
+      "easy": 110,
+      "medium": 105,
+      "hard": 100,
+      "total": 315
+    },
+    {
+      "id": "national-income-aggregates",
+      "title": "National Income & Aggregates",
+      "subject": "ECONOMICS",
+      "easy": 108,
+      "medium": 104,
+      "hard": 101,
+      "total": 313
+    },
+    {
+      "id": "partnership-fundamentals",
+      "title": "Partnership — Fundamentals",
+      "subject": "ACCOUNTANCY",
+      "easy": 110,
+      "medium": 102,
+      "hard": 100,
+      "total": 312
+    },
+    {
+      "id": "permutations-combinations",
+      "title": "Permutations & Combinations",
+      "subject": "MATHS",
+      "easy": 106,
+      "medium": 102,
+      "hard": 100,
+      "total": 308
+    },
+    {
+      "id": "principles-of-management",
+      "title": "Principles of Management",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 105,
+      "medium": 100,
+      "hard": 100,
+      "total": 305
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "subject": "MATHS",
+      "easy": 105,
+      "medium": 100,
+      "hard": 100,
+      "total": 305
+    },
+    {
+      "id": "sequences-series",
+      "title": "Sequences & Series",
+      "subject": "MATHS",
+      "easy": 102,
+      "medium": 100,
+      "hard": 100,
+      "total": 302
+    },
+    {
+      "id": "financial-statements-i",
+      "title": "Financial Statements — I",
+      "subject": "ACCOUNTANCY",
+      "easy": 4,
+      "medium": 2,
+      "hard": 0,
+      "total": 6
+    },
+    {
+      "id": "financial-statements-ii",
+      "title": "Financial Statements — II",
+      "subject": "ACCOUNTANCY",
+      "easy": 4,
+      "medium": 2,
+      "hard": 0,
+      "total": 6
+    },
+    {
+      "id": "accounting-for-share-capital",
+      "title": "Accounting for Share Capital",
+      "subject": "ACCOUNTANCY",
+      "easy": 3,
+      "medium": 2,
+      "hard": 1,
+      "total": 6
+    },
+    {
+      "id": "issue-redemption-debentures",
+      "title": "Issue & Redemption of Debentures",
+      "subject": "ACCOUNTANCY",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "financial-statements-analysis",
+      "title": "Analysis of Financial Statements",
+      "subject": "ACCOUNTANCY",
+      "easy": 4,
+      "medium": 1,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "cash-flow-statement",
+      "title": "Cash Flow Statement",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "ratio-analysis",
+      "title": "Ratio Analysis",
+      "subject": "ACCOUNTANCY",
+      "easy": 3,
+      "medium": 1,
+      "hard": 1,
+      "total": 5
+    },
+    {
+      "id": "partnership-deed",
+      "title": "Partnership Deed",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "reconstitution-partnership",
+      "title": "Reconstitution of Partnership",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 2,
+      "hard": 0,
+      "total": 4
+    },
+    {
+      "id": "retirement-partnership",
+      "title": "Retirement of a Partner",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "dissolution-partnership",
+      "title": "Dissolution of Partnership",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "company-accounts",
+      "title": "Company Accounts — Overview",
+      "subject": "ACCOUNTANCY",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "depreciation",
+      "title": "Depreciation",
+      "subject": "ACCOUNTANCY",
+      "easy": 3,
+      "medium": 2,
+      "hard": 1,
+      "total": 6
+    },
+    {
+      "id": "bank-reconciliation",
+      "title": "Bank Reconciliation Statement",
+      "subject": "ACCOUNTANCY",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "trial-balance",
+      "title": "Trial Balance & Rectification",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "journal-ledger",
+      "title": "Journal & Ledger",
+      "subject": "ACCOUNTANCY",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "computerised-accounting",
+      "title": "Computerised Accounting",
+      "subject": "ACCOUNTANCY",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "introduction-accountancy",
+      "title": "Introduction to Accountancy",
+      "subject": "ACCOUNTANCY",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "sets-relations-functions",
+      "title": "Sets, Relations & Functions",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "trigonometric-functions",
+      "title": "Trigonometric Functions",
+      "subject": "MATHS",
+      "easy": 3,
+      "medium": 1,
+      "hard": 0,
+      "total": 4
+    },
+    {
+      "id": "complex-numbers",
+      "title": "Complex Numbers",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "quadratic-equations",
+      "title": "Quadratic Equations",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 1,
+      "total": 4
+    },
+    {
+      "id": "linear-inequalities",
+      "title": "Linear Inequalities",
+      "subject": "MATHS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "binomial-theorem",
+      "title": "Binomial Theorem",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "straight-lines",
+      "title": "Straight Lines",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "conic-sections",
+      "title": "Conic Sections",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "three-d-geometry",
+      "title": "Introduction to 3D Geometry",
+      "subject": "MATHS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "limits-derivatives",
+      "title": "Limits & Derivatives",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "mathematical-reasoning",
+      "title": "Mathematical Reasoning",
+      "subject": "MATHS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "induction",
+      "title": "Principle of Mathematical Induction",
+      "subject": "MATHS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "inverse-trigonometry",
+      "title": "Inverse Trigonometric Functions",
+      "subject": "MATHS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "relations-functions",
+      "title": "Relations & Functions",
+      "subject": "MATHS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "intro-microeconomics",
+      "title": "Intro to Microeconomics",
+      "subject": "ECONOMICS",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "consumer-behaviour",
+      "title": "Consumer Behaviour & Demand",
+      "subject": "ECONOMICS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "producer-behaviour-supply",
+      "title": "Producer Behaviour & Supply",
+      "subject": "ECONOMICS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "forms-of-market",
+      "title": "Forms of Market & Pricing",
+      "subject": "ECONOMICS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "intro-macroeconomics",
+      "title": "Intro to Macroeconomics",
+      "subject": "ECONOMICS",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "money-banking",
+      "title": "Money & Banking",
+      "subject": "ECONOMICS",
+      "easy": 3,
+      "medium": 1,
+      "hard": 0,
+      "total": 4
+    },
+    {
+      "id": "government-budget-economy",
+      "title": "Government Budget & Economy",
+      "subject": "ECONOMICS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "balance-payments-forex",
+      "title": "Balance of Payments & Forex",
+      "subject": "ECONOMICS",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "indian-economy-overview",
+      "title": "Indian Economy — Overview",
+      "subject": "ECONOMICS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "sectoral-aspects-indian-economy",
+      "title": "Sectoral Aspects of Indian Economy",
+      "subject": "ECONOMICS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "money-creation-credit",
+      "title": "Money Creation & Credit",
+      "subject": "ECONOMICS",
+      "easy": 1,
+      "medium": 0,
+      "hard": 0,
+      "total": 1
+    },
+    {
+      "id": "determination-income-employment",
+      "title": "Determination of Income & Employment",
+      "subject": "ECONOMICS",
+      "easy": 1,
+      "medium": 1,
+      "hard": 0,
+      "total": 2
+    },
+    {
+      "id": "business-trade-commerce",
+      "title": "Business, Trade & Commerce",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "forms-of-business-organisation",
+      "title": "Forms of Business Organisation",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 2,
+      "hard": 0,
+      "total": 4
+    },
+    {
+      "id": "private-public-global-business",
+      "title": "Private, Public & Global Business",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 2,
+      "hard": 0,
+      "total": 4
+    },
+    {
+      "id": "business-services",
+      "title": "Business Services",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "emerging-business-models",
+      "title": "Emerging Business Models",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "social-responsibility-business",
+      "title": "Social Responsibility of Business",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "directing-staffing",
+      "title": "Directing & Staffing",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 3,
+      "medium": 2,
+      "hard": 0,
+      "total": 5
+    },
+    {
+      "id": "controlling",
+      "title": "Controlling",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "financial-markets",
+      "title": "Financial Markets",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    },
+    {
+      "id": "marketing",
+      "title": "Marketing & Sales",
+      "subject": "BUSINESS_STUDIES",
+      "easy": 2,
+      "medium": 1,
+      "hard": 0,
+      "total": 3
+    }
+  ]
+}

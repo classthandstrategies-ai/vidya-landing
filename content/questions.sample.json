@@ -1,0 +1,104 @@
+[
+  {
+    "id": "goodwill-yp-001",
+    "chapter": "Goodwill",
+    "subject": "ACCOUNTANCY",
+    "difficulty": "Hard",
+    "marks": 4,
+    "prompt": "The profits of a firm for the last four years were Rs 90,000, Rs 1,20,000, Rs 1,40,000 and Rs 1,60,000. The profit of the second year included an abnormal gain of Rs 20,000, and the profit of the fourth year was arrived at after debiting an abnormal loss of Rs 16,000. Goodwill is to be valued at 3 years' purchase of the average adjusted profit. Calculate goodwill.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Rs 3,82,500",
+        "correct": false,
+        "explanation": "That's the figure you get if you use the profits as reported and skip both adjustments. The abnormal gain has to come out and the abnormal loss has to go back in first."
+      },
+      {
+        "letter": "B",
+        "text": "Rs 3,79,500",
+        "correct": true,
+        "explanation": "1. Year 2 adjusted = 1,20,000 − 20,000 = 1,00,000 (abnormal gain removed)\n2. Year 4 adjusted = 1,60,000 + 16,000 = 1,76,000 (abnormal loss added back)\n3. Adjusted total = 5,06,000 → average = 1,26,500\n4. Goodwill = 1,26,500 × 3 = Rs 3,79,500"
+      },
+      {
+        "letter": "C",
+        "text": "Rs 3,85,500",
+        "correct": false,
+        "explanation": "You adjusted both years, but in the wrong direction — a gain is deducted and a loss is added back, not the reverse."
+      },
+      {
+        "letter": "D",
+        "text": "Rs 1,26,500",
+        "correct": false,
+        "explanation": "That's the average adjusted profit, which is right — but goodwill is that figure × 3 years' purchase."
+      }
+    ]
+  },
+  {
+    "id": "ratio-current-002",
+    "chapter": "Accounting Ratios",
+    "subject": "ACCOUNTANCY",
+    "difficulty": "Medium",
+    "marks": 3,
+    "prompt": "A company has current assets of Rs 6,00,000 and current liabilities of Rs 2,40,000. Inventory is Rs 1,60,000 and prepaid expenses are Rs 40,000. What is the quick ratio?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2.5 : 1",
+        "correct": true,
+        "explanation": "Quick ratio = (Current Assets − Inventory − Prepaid Expenses) / Current Liabilities = (6,00,000 − 1,60,000 − 40,000) / 2,40,000 = 4,00,000 / 2,40,000 = 2.5 : 1."
+      },
+      {
+        "letter": "B",
+        "text": "1.67 : 1",
+        "correct": false,
+        "explanation": "That's the current ratio (6,00,000 / 2,40,000). Quick ratio excludes inventory and prepaid expenses."
+      },
+      {
+        "letter": "C",
+        "text": "2.83 : 1",
+        "correct": false,
+        "explanation": "You subtracted inventory but not prepaid expenses. Prepaid expenses aren't readily available to pay liabilities."
+      },
+      {
+        "letter": "D",
+        "text": "1.0 : 1",
+        "correct": false,
+        "explanation": "Dividing current liabilities into inventory alone gives a number that doesn't represent liquidity."
+      }
+    ]
+  },
+  {
+    "id": "probability-bayes-003",
+    "chapter": "Probability",
+    "subject": "MATHS",
+    "difficulty": "Hard",
+    "marks": 4,
+    "prompt": "A bag contains 5 red and 7 blue balls. Two balls are drawn without replacement. What is the probability that the second ball is red, given that the first ball drawn was blue?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5/12",
+        "correct": false,
+        "explanation": "That's the probability the second ball is red before the first is drawn. After removing a blue ball, there are still 5 red and 6 blue left, so it's not 5/12."
+      },
+      {
+        "letter": "B",
+        "text": "5/11",
+        "correct": true,
+        "explanation": "After one blue is removed, the bag has 5 red and 6 blue = 11 balls. P(red next) = 5/11."
+      },
+      {
+        "letter": "C",
+        "text": "7/12",
+        "correct": false,
+        "explanation": "That's the probability the second ball is blue, not red — and also ignores that a blue was already removed."
+      },
+      {
+        "letter": "D",
+        "text": "35/132",
+        "correct": false,
+        "explanation": "That's the joint probability of drawing blue then red. The conditional probability is just 5/11 once you condition on the first draw."
+      }
+    ]
+  }
+]

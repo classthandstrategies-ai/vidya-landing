@@ -1,0 +1,38 @@
+{
+  "name": "vidya-landing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public marketing site for Vidya — offline-first CBSE Commerce & Maths practice.",
+  "scripts": {
+    "prebuild": "tsx scripts/generate-content.ts",
+    "predev": "tsx scripts/generate-content.ts",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "check:private-leaks": "tsx scripts/check-private-surface.ts"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "11.3.21",
+    "@vercel/og": "0.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "8.4.39",
+    "tailwindcss": "3.4.6",
+    "tsx": "4.16.2",
+    "typescript": "5.5.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
