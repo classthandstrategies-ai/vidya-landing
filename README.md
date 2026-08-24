@@ -6,8 +6,6 @@
 
 > **Practice that works when your internet doesn't.**
 
-</details>
-
 ---
 
 ## Try one right now
