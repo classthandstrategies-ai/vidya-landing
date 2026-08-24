@@ -1,8 +1,8 @@
 # Vidya — offline CBSE Commerce & Maths practice
 
-![Coverage](https://img.shields.io/badge/chapters-12%20exam--ready-6d28d9?style=for-the-badge)
-![Answers verified](https://img.shields.io/badge/answers-machine--verified-f59e0b?style=for-the-badge)
-![Offline](https://img.shields.io/badge/works%20offline-yes-16a34a?style=for-the-badge)
+[![Coverage](https://img.shields.io/badge/chapters-12%20exam--ready-6d28d9?style=for-the-badge)](https://vidya-landing-handoff.vercel.app#coverage)
+[![Answers verified](https://img.shields.io/badge/answers-machine--verified-f59e0b?style=for-the-badge)](https://vidya-landing-handoff.vercel.app#verify)
+[![Offline](https://img.shields.io/badge/works%20offline-yes-16a34a?style=for-the-badge)](https://vidya-landing-handoff.vercel.app#offline)
 
 > **Practice that works when your internet doesn't.**
 
